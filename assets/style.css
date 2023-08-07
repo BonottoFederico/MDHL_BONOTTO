@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    margin: 5% 15%;
+}
+header{
+    position: relative;
+}
+nav{
+    position: absolute;
+    right: 0;
+}
+#titulo{
+    font-size: 48px;
+    height: 50px;
+}
+nav a{
+    padding: 3px 12px;
+    margin: 0 4px;
+    border:2px solid black;
+    color: white;
+    background-color:#5050f4;
+    box-shadow: 1.5px 1.5px 2px #110F0F; 
+    font-weight: bold;
+    text-decoration: none; 
+}
+#banner{
+    height: 250px;
+    width: 100%;;
+    object-fit: cover;
+    object-position: 0% 25%;
+    padding-top: 10px;
+}
+#piedefoto{
+    text-align: center;
+    border:2px solid;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+article{
+    position: relative;
+}
+#logo{
+width: 150px;
+}
+dl dd{
+    margin: 3px 15px;
+    width: 700px;
+    font-style: italic;
+    text-indent: 10px;
+}
+dl dt{
+    font-weight: bold;
+}
+.middle{
+    display: inline-block;
+    padding-left: 60px;
+    font-size: 20px;
+    position: absolute;
+}
