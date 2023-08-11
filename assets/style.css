@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+body{
+    padding: 5% 15%;
+    background: rgb(156,64,129);
+    background: linear-gradient(0deg, rgba(156,64,129,1) 0%, rgba(253,226,45,1) 100%) no-repeat;
+    height: 1000px;
+}
+header{
+    display: flex;
+    background-image: url(./design1_image2.jpg);
+    background-position: 15% 25%;
+    height: 150px;
+    width: 100%;
+    border:2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-left: 20px;
+    gap: 5px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#titulo{
+    order: 2;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 52px;
+    box-shadow: 1.5px 1.5px 2px #110F0F;
+}
+a{
+    border:2px solid black;
+    color: white;
+    background-color:#5050f4;
+    box-shadow: 1.5px 1.5px 2px #110F0F; 
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(156,64,129,1);
+}
+#seccion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:2px solid black;
+    border-top: none;
+    text-decoration: underline;
+    font-size: 36px;
+}
+#logo{
+    width: 100px;
+}
+dl dt{
+    font-weight: bold;
+}
+dl dd{
+    margin: 3px 15px;
+    font-style: italic;
+    text-indent: 10px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+}
+.imagen1{
+    background-image: url(./hockey2.jpg);
+    background-position: center 1100%
+}
+#about{
+    padding: 5px;
+    border:2px solid black;
+}
+pre{
+    font-weight: 700;
+    border:2px solid black;
+}
+#reglas{
+    list-style-position: inside;
+    padding: 15px 15px;
+    border:2px solid black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
